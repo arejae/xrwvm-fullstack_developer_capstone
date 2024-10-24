@@ -1,0 +1,79 @@
+<html>
+<head>
+  <!-- Link the style sheet here -->
+  <link rel="stylesheet" href="/static/style.css">
+  <link rel="stylesheet" href="/static/bootstrap.min.css">
+</head>
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 1in;">
+      <div class="container-fluid">
+        <h2 style="padding-right: 5%;">Dealerships</h2>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: larger;" href="/about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger;" href="/contact">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container mt-4">
+    <h3>Contact Us</h3>
+    <p>If you have any questions, comments, or concerns, please don't hesitate to reach out to us. We value your feedback and will respond to your inquiry as soon as possible.</p>
+
+    <h4>Get in Touch</h4>
+    <form>
+      <div class="mb-3">
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+      </div>
+      <div class="mb-3">
+        <label for="message" class="form-label">Message</label>
+        <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+
+    <h4 class="mt-4">Visit Us</h4>
+    <p>You can also visit our dealership at the following address:</p>
+    <address>
+      1234 Car Dealership St.<br>
+      City, State, ZIP Code<br>
+      Phone: (123) 456-7890<br>
+      Email: info@dealership.com
+    </address>
+
+    <h4>Business Hours</h4>
+    <p>We are open during the following hours:</p>
+    <ul>
+      <li>Monday - Friday: 9:00 AM - 6:00 PM</li>
+      <li>Saturday: 10:00 AM - 4:00 PM</li>
+      <li>Sunday: Closed</li>
+    </ul>
+
+    <h4>Follow Us</h4>
+    <p>Stay updated with our latest offers and news by following us on social media:</p>
+    <ul>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Instagram</a></li>
+    </ul>
+  </div>
+</body>
+</html>
